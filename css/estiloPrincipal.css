@@ -1,0 +1,116 @@
+:root {
+     --background-site: #0f172a;
+     --blue-color: #24b4cd;
+     --background-div: #141C31;
+     --blue-medio: ;
+     --white: #fff;
+}
+
+body {
+     background-color: var(--background-site);
+}
+
+/* section-1 */
+.container-config {
+     margin: auto;
+     display: flex;
+     justify-content: space-around;
+}
+
+.h1-custom{
+     font-weight: 400;
+}
+
+.font-custom {
+     color: var(--blue-color);
+}
+
+.btn {
+    background: var(--blue-color);
+
+    background: -webkit-linear-gradient(
+         to right,
+         #6dd5ed,
+         #2193b0
+    ); 
+    background: linear-gradient(to right, #6dd5ed, #2193b0);      
+     margin: auto;
+     font-weight: bold;
+}
+
+.btn:hover {
+     background: var(--blue-color);
+}
+
+/* container-config-1 section-2 */
+.container-1{
+     margin-top: 100px;
+     margin-bottom: 100px;
+}
+.container-config-1, .container-config-2{
+     background-color: var(--background-div);
+     border-radius: 20px;
+     position: relative;
+
+}
+
+.container-config-1:hover, .container-config-2:hover{
+     border-bottom:2px solid  var(--blue-color);
+     border-right: 2px solid var(--blue-color);
+     border-left: 2px solid var(--blue-color);
+     cursor: pointer;
+}
+
+.container-config-1 img{
+     max-width: 150px;
+     margin: 30px auto;
+}
+
+.techs{
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+}
+
+.h2-div{
+     margin-top: -2px;
+}
+.h2-custom{
+     margin-top: -40px;
+     font-weight: 400;
+}
+
+/* section-3 */
+.container-config-2{
+     border-radius: 20px;
+}
+
+.h3-custom{
+     font-weight: 500;
+}
+
+.div-project{
+     position: relative;
+}
+
+.img-project-div{
+     position: relative;
+     text-align: center;
+     max-width: fit-content;
+}
+
+.img-project-div img{
+     width: 100%;
+}
+
+.img-project{
+     max-height: 600px;
+}
+
+
+.btn-all{
+     margin: auto;
+     width: 100%;
+     margin-bottom: 10px;
+     cursor: pointer;
+}
